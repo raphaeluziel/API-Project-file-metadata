@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Raphael Uziel</title>
+
+  <link href='styles/portfolio.css' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/portfolio.js"></script>
+
+</head>
+
+<body>
+
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <h1 id="home">Raphael Uziel</h1>
+  <h2>Full Stack Web Development</h2>
+
+  <main>
+
+    <section>
+      <div class="me">
+        <img src="https://www.raphaeluziel.com/images/profile.jpg" />
+        <p>Skilled in a wide range of areas of web development from react, jQuery, D3 and bootstrap on the front end, to python and SQL on the back end.  I began my career teaching physics in high school, which I have been doing for nearly 30 years.  Recently I completed <a href="https://courses.edx.org/certificates/537bda1b7952497abee8d21353038970" target="_blank">CS50: Introduction to Computer Science</a>, Harvard's online course at edx, and am working on completing the challenges at <a href="https://www.freecodecamp.org/raphaeluziel" target="_blank">freecodecamp</a>.
+        </p>
+      </div>
+    </section>
+    <div id="projects"><br><br></div>
+    <hr />
+    <section>
+      <header><h2>Projects</h2></header>
+
+      <div class="projects">
+        <button type="button" class="button" id="all">ALL</button>
+        <button type="button" class="button" id="bootstrap">Bootstrap</button>
+        <button type="button" class="button" id="jQuery">jQuery</button>
+        <button type="button" class="button" id="react">React</button>
+        <button type="button" class="button" id="d3">D3</button>
+        <button type="button" class="button" id="sql">SQL</button>
+        <button type="button" class="button" id="flash">Flash</button>
+      </div>
+
+      <div class="projects">
+        <div class="description all sql">
+          <a href="http://raphael-cs50-final.herokuapp.com/login" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/cs50.jpg" alt="cs50 final project"/>
+          </a>
+          <p>CS50 Final project using Python</p>
+        </div>
+        <div class="description all d3">
+          <a href="https://codepen.io/raphaeluziel/full/qLXYqE" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/treemap.jpg" alt="D3 Treemap"/>
+          </a>
+          <p>Treemap using D3/p>
+        </div>
+        <div class="description all d3">
+          <a href="https://codepen.io/raphaeluziel/full/QzggBQ" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/choropleth.jpg" alt="D3 Choropleth Map"/>
+          </a>
+          <p>Choropleth Map using D3</p>
+        </div>
+        <div class="description all d3">
+          <a href="https://codepen.io/raphaeluziel/full/ebWyod" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/heat.jpg" alt="D3 Heat Map"/>
+          </a>
+          <p>Heat Map using D3</p>
+        </div>
+        <div class="description all d3">
+          <a href="https://codepen.io/raphaeluziel/full/roywYE" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/scatter.jpg" alt="D3 Scatter Plot"/>
+          </a>
+          <p>Scatter Plot using D3</p>
+        </div>
+        <div class="description all d3">
+          <a href="https://codepen.io/raphaeluziel/full/gZMVOY" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/bar_chart.jpg" alt="D3 Bar Chart"/>
+          </a><p>Bar Chart using D3</p>
+        </div>
+        <div class="description all react">
+          <a href="https://codepen.io/raphaeluziel/full/gZYrmg" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/react.jpg" alt="React Combination"/>
+          </a>
+          <p>React component combo</p>
+        </div>
+        <div class="description all react">
+          <a href="https://codepen.io/raphaeluziel/full/qQGXyd" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/pomodoro.jpg" alt="React Pomodoro Clock"/>
+          </a>
+          <p>Pomodoro Clock using React</p>
+        </div>
+        <div class="description all react">
+          <a href="https://codepen.io/raphaeluziel/full/RqeZyz" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/calculator.jpg" alt="React Calculator"/>
+          </a>
+          <p>Calculator using React</p>
+        </div>
+        <div class="description all react">
+          <a href="https://codepen.io/raphaeluziel/full/wQqMjo" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/drum.jpg" alt="React Drum Machine"/>
+          </a>
+          <p>Drum Machine using React</p>
+        </div>
+        <div class="description all react">
+          <a href="https://codepen.io/raphaeluziel/full/jQmXwY" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/markdown.jpg" alt="React Markdown Previewer"/>
+          </a>
+          <p>CMarkdown Previewer using React</p>
+        </div>
+        <div class="description all">
+          <a href="https://codepen.io/raphaeluziel/full/ZRxQrr" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/technical.jpg" alt="Technical Documentation Page"/>
+          </a>
+          <p>Technical Documentation Page</p>
+        </div>
+        <div class="description all">
+          <a href="https://codepen.io/raphaeluziel/full/oyeGoP" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/product.jpg" alt="Product Landing Page"/>
+          </a>
+          <p>CProduct Landing page</p>
+        </div>
+        <div class="description all">
+          <a href="https://codepen.io/raphaeluziel/full/xzqKPv" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/survey.jpg" alt="Survey Form"/>
+          </a>
+          <p>Survey Form</p>
+        </div>
+        <div class="description all">
+          <a href="https://codepen.io/raphaeluziel/full/PazzXN/" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/twitch.jpg" alt="Twitch TV App"/>
+          </a>
+          <p>Twitch TV App</p>
+        </div>
+        <div class="description all jQuery">
+          <a href="https://codepen.io/raphaeluziel/full/PeXzMX" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/wikipedia.jpg" alt="Wikipedia Viewer"/>
+          </a>
+          <p>Wikipedia Viewer App</p>
+        </div>
+        <div class="description all jQuery">
+          <a href="https://codepen.io/raphaeluziel/full/BxxLMv" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/weather.jpg" alt="Weather App"/>
+          </a>
+          <p>Weather App</p>
+        </div>
+        <div class="description all jQuery">
+          <a href="https://codepen.io/raphaeluziel/full/NMXJeo" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/quote.jpg" alt="Random Quote Machine"/>
+          </a>
+          <p>Random Quote Machine</p>
+        </div>
+        <div class="description all bootstrap">
+          <a chref="https://codepen.io/raphaeluziel/full/vRoWLg" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/einstein.jpg" alt="Tribute Page to Einstein"/>
+          </a>
+          <p>Tribute to Einstein</p>
+        </div>
+        <div class="description all">
+          <a href="http://www.raphaeluziel.com/physics/index.html" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/hsas.jpg" alt="Physics Website"/>
+          </a>
+          <p>My old physics website</p>
+        </div>
+        <div class="description all flash">
+          <a href="http://www.raphaeluziel.com/physics/simulations.html" target="_blank">
+            <img src="https://www.raphaeluziel.com/images/simulations.jpg" alt="Flash Animation Page"/>
+          </a>
+          <p>Links to flash animations</p>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <div id="contact"><br><br></div>
+    <section>
+      <header><h2>Contact</h2></header>
+
+        <div class="contacts">
+          <a href="https://www.freecodecamp.org/raphaeluziel" target="_blank">
+            <img class="wide_logo" src="https://www.raphaeluziel.com/images/logo_freecodecamp.jpg" alt="FreeCodeCamp" style="width: 150px;"/>
+          </a>
+          <a href="https://codepen.io/raphaeluziel/" target="_blank">
+            <img class="wide_logo" src="https://www.raphaeluziel.com/images/logo_codepen.png" alt="CodePen" />
+          </a>
+          <button type="button" style="background-color:#F9E79F;">
+            <a href="https://glitch.com/@raphaeluziel" target="_blank" style="text-decoration:none; font-weight:bold;">Glitch</a>
+          </button>
+          <a href="https://github.com/raphaeluziel" target="_blank">
+            <img class="logo" src="https://www.raphaeluziel.com/images/logo_github.png" alt="GitHub" />
+          </a>
+          <a href="mailto:raphaeluziel@hotmail.com" target="_blank">
+            <img class="logo" src="https://www.raphaeluziel.com/images/logo_email.png" alt="Email" />
+          </a>
+        </div>
+
+    </section>
+  </main>
+</body>
+
+</html>

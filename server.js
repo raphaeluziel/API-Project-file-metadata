@@ -5,6 +5,7 @@ var cors = require('cors');
 
 // require and use "multer"...
 var multer  = require('multer')
+// upfile is the name of the input field 
 var upload = multer().single('upfile')
 
 var app = express();
@@ -16,10 +17,6 @@ app.get('/', function (req, res) {
      res.sendFile(process.cwd() + '/views/index.html');
   });
 
-app.get('/hello', function(req, res){
-  res.json({greetings: "Hello, API"});
-});
-
 
 app.post('/api/fileanalyse', function (req, res) {
   upload(req, res, function (err) {
@@ -29,7 +26,14 @@ app.post('/api/fileanalyse', function (req, res) {
       console.log("An unknown error occurred when uploading");
     }
   })
-  res.json({name: req.file.originalname, type: req.file.mimetype, size: req.file.size});
+  // If no file was chosen, redirect to the homepage
+  if (!req.file) {
+    res.redirect('/')
+  }
+  // Otherwise return the file metadata information
+  else{
+    res.json({name: req.file.originalname, type: req.file.mimetype, size: req.file.size});
+  }
 })
 
 
